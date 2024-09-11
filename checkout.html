@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="leftnav"><img src="imgs/WhatsApp_Image_2024-08-24_at_12.25.32-removebg-preview.png" alt=""></div>
+            <div class="rightnav">
+                <ul>
+                    <li><a href="home.html" style="text-decoration: none;">Home</a></li>
+                    <li><a href="products.html" style="text-decoration: none;">Products</a></li>
+                    <li><a href="aboutus.html" style="text-decoration: none;">About Us</a></li>
+                    <li><a href="shoppingcart.html" style="text-decoration: none;">Shopping Cart</a></li>
+                    <li><a href="checkout.html" style="text-decoration: none;">Check Out</a></li>
+                    <li><a href="contactus.html" style="text-decoration: none;">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="checkout-container">
+        <h1>Checkout</h1>
+
+        <form class="checkout-form">
+            <div class="billing-details">
+                <h2>Billing Details</h2>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" required>
+
+                <label for="zipcode">Zip Code:</label>
+                <input type="text" id="zipcode" name="zipcode" required>
+            </div>
+
+            <div class="payment-details">
+                <h2>Payment Details</h2>
+                <label for="cardname">Name on Card:</label>
+                <input type="text" id="cardname" name="cardname" required>
+
+                <label for="cardnumber">Card Number:</label>
+                <input type="text" id="cardnumber" name="cardnumber" required>
+
+                <label for="expdate">Expiry Date:</label>
+                <input type="text" id="expdate" name="expdate" placeholder="MM/YY" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+            </div>
+
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                <p>Total Items: 2</p>
+                <p>Total Cost: ₹2000</p>
+            </div>
+
+            <button type="submit" class="place-order-btn">Place Order</button>
+        </form>
+    </main>
+
+   
+<footer>
+    <div class="footer0">HANDICRAFTS</div>
+    
+    <div class="footer1">
+        <p>Connect with us</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+    
+    <div class="footer2">
+        <div class="footer-column">
+            <h3>Products</h3>
+            <a href="#">Sell your products</a>
+            <a href="#">Advertise</a>
+            <a href="#">Pricing</a>
+            <a href="#">Product Business</a>
+        </div>
+        <div class="footer-column">
+            <h3>Services</h3>
+            <a href="#">Return</a>
+            <a href="#">Cash Back</a>
+            <a href="#">Affiliate marketing</a>
+            <a href="#">Orders</a>
+        </div>
+        <div class="footer-column">
+            <h3>Company</h3>
+            <a href="#">Complaint</a>
+            <a href="#">Careers</a>
+            <a href="#">Affiliate marketing</a>
+            <a href="#">Support</a>
+        </div>
+        <div class="footer-column">
+            <h3>Get Help</h3>
+            <a href="#">Help Centre</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms</a>
+            <a href="#">Login</a>
+        </div>
+    </div>
+    
+    <div class="footer3"></div>
+</footer>
+
+
+</body>
+
+</html>

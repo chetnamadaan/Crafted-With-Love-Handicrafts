@@ -1,0 +1,51 @@
+[
+    {
+        "id":1,
+        "name":"Product1",
+        "price":200,
+        "image": "imgs/08cfa9e4e8a3cb63a2278dbabc2984d9.jpg"
+    },
+    {
+        "id":2,
+        "name":"Product2",
+        "price":200,
+        "image": "imgs/08cfa9e4e8a3cb63a2278dbabc2984d9.jpg"
+    },
+    {
+        "id":3,
+        "name":"Product3",
+        "price":200,
+        "image": "imgs/08cfa9e4e8a3cb63a2278dbabc2984d9.jpg"
+    },
+    {
+        "id":4,
+        "name":"Product4",
+        "price":200,
+        "image": "imgs/08cfa9e4e8a3cb63a2278dbabc2984d9.jpg"
+    },
+    {
+        "id":5,
+        "name":"Product5",
+        "price":200,
+        "image": "imgs/08cfa9e4e8a3cb63a2278dbabc2984d9.jpg"
+    },
+    {
+        "id":6,
+        "name":"Product6",
+        "price":200,
+        "image": "imgs/08cfa9e4e8a3cb63a2278dbabc2984d9.jpg"
+    },
+    {
+        "id":7,
+        "name":"Product7",
+        "price":200,
+        "image": "imgs/08cfa9e4e8a3cb63a2278dbabc2984d9.jpg"
+    },
+    {
+        "id":8,
+        "name":"Product8",
+        "price":200,
+        "image": "imgs/08cfa9e4e8a3cb63a2278dbabc2984d9.jpg"
+    }
+
+]
