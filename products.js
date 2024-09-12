@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             localStorage.setItem('cartItems', JSON.stringify(cartItems));
             alert('Item added to cart!');
-            // Update the cart display after adding an item
+
             displayCartItems();
         });
     });
